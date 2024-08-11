@@ -1,0 +1,197 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background: linear-gradient( #134e5e
+    ,
+    #71b280);
+    min-height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+header {
+    background: linear-gradient(to right, #00695c, #004d40);
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+}
+
+header .logo {
+    margin-left: 2rem;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+header .logo p {
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-right: 2rem;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+footer {
+    background:rgb(60, 60, 60);
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    color: white;
+}
+
+.hero-text p {
+    font-size: 1.5rem;
+    color: white;
+}
+
+
+
+
+
+
+
+.divmarquee{
+ justify-content: space-between;
+    display: flex;
+}
+.container2 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.box {
+    background: linear-gradient( #b1e5c4, #b6ffc2);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 600px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.box h3 {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.box p {
+    color: #555;
+}
+
+.box1 {
+    background-color: #bcf6e7;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 90%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.box1 p{
+align-content: center;
+font-weight: 200;
+}
+.allepyhead1 {
+  
+display:flex ;
+color: white;
+}
+.subhead1 {
+   
+color: white;
+text-align: center;
+}
+
+.content-box {
+    background-color: #fff;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.content-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.content-box p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+.subbody{
+background: linear-gradient( #134e5e
+,
+#71b280);
+align-content: center;
+display: flex;
+flex-direction: column;
+
+}
+
+.subhead1 {
+   
+    color: white;
+    align-items: center;
+    margin-left: 45%;
+    }
